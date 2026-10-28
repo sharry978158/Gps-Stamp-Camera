@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- Background Card -->
+    <path android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="320"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#07121E" />
+                <item android:offset="1.0" android:color="#112A42" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Topographic / Coordinate Grid Lines -->
+    <path
+        android:pathData="M0,45L320,45M0,90L320,90M0,135L320,135M64,0L64,180M128,0L128,180M192,0L192,180M256,0L256,180"
+        android:strokeWidth="0.8"
+        android:strokeColor="#1B3B5A" />
+    <!-- Glowing Radar Circles -->
+    <path
+        android:pathData="M160,90m-68,0a68,68 0,1 1,136 0a68,68 0,1 1,-136 0"
+        android:strokeWidth="1.5"
+        android:strokeColor="#2600E5FF" />
+    <path
+        android:pathData="M160,90m-46,0a46,46 0,1 1,92 0a46,46 0,1 1,-92 0"
+        android:strokeWidth="1.8"
+        android:strokeColor="#6600E5FF" />
+    <!-- Corner Viewfinder Brackets -->
+    <path
+        android:pathData="M28,42V26H44M276,26H292V42M28,138V154H44M276,154H292V138"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00E5FF" />
+    <!-- Central GPS Map Pin -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M160,52C146.7,52 136,62.7 136,76C136,94 160,118 160,118C160,118 184,94 184,76C184,62.7 173.3,52 160,52ZM160,84.5C155.3,84.5 151.5,80.7 151.5,76C151.5,71.3 155.3,67.5 160,67.5C164.7,67.5 168.5,71.3 168.5,76C168.5,80.7 164.7,84.5 160,84.5Z" />
+    <!-- Satellite Signal Arc -->
+    <path
+        android:pathData="M110,55A65,65 0,0 1,210 55"
+        android:strokeWidth="2"
+        android:strokeColor="#00E5FF" />
+</vector>

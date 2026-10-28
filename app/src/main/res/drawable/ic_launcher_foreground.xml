@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera body silhouette in safe zone (24..84) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M43,32L47,27H61L65,32H75C78.87,32 82,35.13 82,39V71C82,74.87 78.87,78 75,78H33C29.13,78 26,74.87 26,71V39C26,35.13 29.13,32 33,32H43Z" />
+    <!-- Inner dark lens ring -->
+    <path
+        android:fillColor="#0A1929"
+        android:pathData="M54,38C44.06,38 36,46.06 36,56C36,65.94 44.06,74 54,74C63.94,74 72,65.94 72,56C72,46.06 63.94,38 54,38Z" />
+    <!-- GPS Pin inside lens -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M54,43C48.48,43 44,47.48 44,53C44,60.5 54,69 54,69C54,69 64,60.5 64,53C64,47.48 59.52,43 54,43ZM54,56.5C52.07,56.5 50.5,54.93 50.5,53C50.5,51.07 52.07,49.5 54,49.5C55.93,49.5 57.5,51.07 57.5,53C57.5,54.93 55.93,56.5 54,56.5Z" />
+    <!-- Flash indicator -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M74,38m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+</vector>

@@ -1,0 +1,11 @@
+{
+  "name": "GPS Stamp Camera",
+  "description": "Direct-to-camera GPS photo stamper with live location coordinates, address, editable date and time stamp, and automatic gallery saving.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
